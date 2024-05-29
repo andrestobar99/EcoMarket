@@ -1,0 +1,103 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(147, 228, 131);
+}
+.contenedor{
+    width: 1000px;
+    max-width: 1600px;
+    margin: auto;
+    height: auto;
+}
+header{
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;    
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+nav ul li{
+    display: inline;
+    margin-right: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.carrito{
+    margin: 30px;
+}
+.productos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    background-color: darkgreen;
+    justify-content: left;
+    align-items: left;
+    padding: 20px;
+}
+.menu h1{
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10;
+}
+.menu p{
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10;
+}
+.menu h2{
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10;
+}
+.articulos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+.articulos img{
+    max-width: 100%;
+    height: auto;
+}
+footer{
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;  
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12;
+    color: white;
+}
+nav .facebook{
+    display: inline;
+    margin-right: 20px;
+}
+nav .instagram{
+    display: inline;
+    margin-right: 20px;
+}
+nav .whatsapp{
+    display: inline;
+    margin-right: 20px;
+}
